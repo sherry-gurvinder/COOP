@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+</head>
+<style>
+  .nav-item a{
+    color: white;
+  }
+  .container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 19px;
+    font-variant-caps: small-caps;
+}
+
+.centered:hover {
+    font-size: 20px;
+    font-weight: bold;
+}
+#div2-hover
+{
+  color: black;
+      font-size: 19px;
+      font-weight: bold;
+      font-variant-caps: small-caps;
+      text-align: center;
+      margin-top: 10%;
+}
+
+#div2-hover:hover
+{
+  color: black;
+      font-size: 20px;
+      font-weight: bold;
+      font-variant-caps: small-caps;
+      text-align: center;
+      margin-top: 10%;
+}
+.div-style-text
+{
+  color: black;
+      font-size: 19px;
+      font-weight: bold;
+      font-variant-caps: small-caps;
+      text-align: center;
+      margin-top: 10%;
+}
+.div-color-change-hover:hover
+{
+  background-color: #74b3ab !important;
+}
+</style>
+<body>
+    <nav class="navbar navbar-expand-sm" style="background-color: #74b3ab;">
+        <!-- Brand/logo -->
+        <a class="navbar-brand" href="#" style="color: 
+        #ffffff;">Reach Web Experts</a>
+        
+       
+      </nav>
+<div class="container-fluid">
+  <div class="imagesliderauto" style="width:100%;">
+    <div><img src="https://thumbs.dreamstime.com/b/header-laptop-scattered-stationery-yellow-background-online-school-distance-education-concept-211955492.jpg" style="width:100%;"></div>
+    <div><img src="https://thumbs.dreamstime.com/b/header-laptop-scattered-stationery-yellow-background-online-school-distance-education-concept-211955492.jpg"></div>
+    <div><img src="https://thumbs.dreamstime.com/b/header-laptop-scattered-stationery-yellow-background-online-school-distance-education-concept-211955492.jpg"></div>
+  </div>
+    <h1 class="mx-auto mb-5" style="text-align: center;">Global Talent for Tomorrow’s Technology, Today</h1>
+   
+</div>
+
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-5 " >
+    <img class="img-fluid" id="div1-hover-font-increase" style="filter: brightness(0.5);" src="https://images.squarespace-cdn.com/content/v1/611aa54c933d4a3abde95943/1629730347049-X3TC4OTMHP2UIA9OSN29/hiring01.jpg?format=750w">
+    <div class="centered">Leading talent acquisition for medium to large tech companies looking for top-tier resources since 2014.
+      </div>  
+  </div>
+    <div class="col-md-5 offset-md-2" style="background-color:#ffc04f;">
+    <p id="div2-hover">Take a more detailed look and explore how our talent pool can help you enhance and grow your business.
+     </p>
+     <button type="button" class="btn btn-primary">Contact Us</button>
+   </div>
+    
+    </div>
+  </div>
+
+  <div class="container mt-5 mb-5">
+    <div class="row">
+      <div class="col-md-5 div-color-change-hover" style="background-color:#ffc04f;">
+        <p class="div-style-text">
+          The Reach team partners with you to create bespoke solutions that increase business productivity and efficiency. 
+        </p>
+        <button type="button" class="btn btn-primary">About Us</button>
+        </div>
+        <div class="col-md-5 offset-md-2 div-color-change-hover" style="background-color:#ffc04f;">
+          <p class="div-style-text">
+            The Reach team partners with you to create bespoke solutions that increase business productivity and efficiency.
+          
+          </p>
+          <button type="button" class="btn btn-primary">Contact Us</button>
+        <p></p>
+        </div>
+        </div>
+  </div>
+<div class="jumbotron text-center" style="margin-bottom:0">
+    <p>Footer</p>
+</div>
+</body>
+<script>
+ $(document).ready(function(){
+      
+     
+      $('.imagesliderauto').bxSlider({
+        auto: true,
+  autoControls: true,
+  stopAutoOnClick: true,
+  pager: true,
+  slideWidth: true
+      });
+    });
+
+  </script>
+</html>
